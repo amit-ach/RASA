@@ -1,0 +1,13 @@
+## intent:training_certification_policy
+- What is the policy for trainings and certifications?
+- policy for trainings and certifications
+- training and certification policy
+- training/certification policy
+- Any training policy
+- Do you provide any certification course?
+- Do you provide any training?
+- Are you provide any training course?
+- I want info about training policy of company.
+- Want to know more about training and certification policy of this company
+- I want to know more about training and certification policy of the company
+- What is the company's training and certification policy?

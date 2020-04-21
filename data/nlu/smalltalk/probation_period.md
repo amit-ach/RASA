@@ -1,0 +1,15 @@
+## intent:probation_period
+- What is the duration of probation period?
+- probation period
+- may i know the duration of probation period?
+- probatione period duration?
+- how long i need to serve my probation period?
+- when does the probation period ends?
+- What is the probation period of the company?
+- How long I need to server probation period in your company?
+- What is the probation period policy of your company?
+- tell me something about probation period
+- What is my probation period?
+- And Probation period for all employee
+- What is the probation period?
+- what is the probation period policy of this company?

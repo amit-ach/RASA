@@ -1,0 +1,11 @@
+## intent:referral
+- What is the referral bonus?
+- referral bonus policy
+- Info about referral bonus policy
+- Employee referral policy
+- Referral bonus program
+- How should I get the employee referral bonus?
+- referral bonus
+- referral
+- Information about Employee referral reward policy
+- What are referral bonus policy of the [foreahead](org)

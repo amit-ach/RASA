@@ -1,0 +1,13 @@
+## intent:agent.name
+- What is your name
+- What people called you
+- Do you have a name
+- Whats your name
+- Introduce yourself
+- Introduce you
+- What people calls you
+- your name
+- Your Introduction please
+- May I know your name
+- What peoples call you
+- your name

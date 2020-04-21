@@ -1,0 +1,27 @@
+## intent:contact_for_RRWJ
+- whom should I contact for Recruitment, referrals, walk-ins, job posting
+- whom should I contact for referrals
+- whom should I contact for walk-ins
+- whom should I contact for job posting
+- how to contact HR for referral purpose
+- how to contact hr for knowing latest job posting
+- Recruitment
+- referrals
+- walk-ins
+- job posting
+- where should I contact for Recruitment
+- where should I contact for referrals
+- where should I contact for walk-ins
+- where should I contact for job posting
+- queries related to Recruitment 
+- queries related to referrals
+- queries related to walkins
+- queries related to job
+- when we have next walkins 
+- do we have any opening for qa 
+- do we have any opening for java
+- do we have any opening for ruby & rails
+- do we have any opening in machine learning
+- do we have any opening in javascript
+- do we have any opening in front end developer
+- whom should I contact to understand referral policy

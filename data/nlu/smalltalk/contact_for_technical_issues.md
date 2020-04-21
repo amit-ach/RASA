@@ -1,0 +1,34 @@
+## intent:contact_for_technical_issues
+- whom should I contact for technical issue
+- contact for technical issue
+- contact for troubleshooting
+- technical help about computer
+- technical help about laptops
+- technical help about server
+- technical help about vm
+- technical help about internet access
+- network related issues
+- troubleshooting problem
+- technical help about charger cables
+- Portable and Laptop Computers
+- Internet Usage
+- Enforcement
+- Internal emails
+- Software Licensing Policy
+- User Security
+- laptop issue
+- desktop issue
+- i am havinng issue with my laptop
+- my internet is not working
+- my internet data cable is not working
+- wifi is not working
+- I am having issue while installing the software
+- Computer Security
+- install a software
+- login and Password details
+- i have a technical isssue whom should I need to contact
+- for technical issue whom should I need to contact
+- system is not working properly
+- whom do I need to contact If I need help regards laptop issue
+- whom do I need to contact for system issue or laptop issue
+- I want one big screen monitor where I need to contact?

@@ -1,0 +1,22 @@
+## intent:marriage_leave
+- What is the duration of marriage leave
+- marriage leave duration?
+- marriage leave span
+- marriage leave information
+- more information about marriage leave 
+- marriage leave policy
+- What is the duration of wedding leave
+- wedding leave duration?
+- wedding leave span
+- wedding leave information
+- more information about wedding leave 
+- wedding leave policy
+- the duration of marriage leaves
+- the duration of wedding leaves
+- marriage leave
+- wedding
+- marriage
+- How can I manage my marriage leave?
+- Whom should I need to ask about the marriage leave?
+- Marriage leave
+

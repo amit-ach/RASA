@@ -1,0 +1,21 @@
+## intent:leave_policy
+- I want to know the leave policy of the company.
+- I want to know leave policy.
+- Help me to understand the leave policy
+- leave policy
+- May I know the leave policy of the company
+- leave
+- leaves
+- Okay tell me leave policy
+- May i know leave policy?
+- Tell me your leave policies
+- Tell me diffferent leave policies
+- leave policies
+- Can I have your different leave policices
+- Assist with your different leave policies
+- I want to know about leave
+- I want to know about leave procedures
+- I want to know about leaves
+- I want leave policy info
+- Different leave policy
+- i would like to know more about various leave policies of the [forgeahead](org)

@@ -1,0 +1,15 @@
+## intent:contact_HR
+- How to contact HR
+- Where to contact HR
+- contact HR
+- I want to contact HR
+- Can you please connact me with HR
+- Can you please contact HR with me
+- May I know how to contact HR
+- how do i connect with HR
+- How can I email H R
+- HR contact
+- HR Email Address
+- How can I email H R?
+- Can you please connect hr with me?
+- How to get connect with hr

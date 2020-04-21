@@ -1,0 +1,21 @@
+## intent:salary_slip
+- Where can I see my Salary Slip?
+- Where can I see my  Pay Slip?
+- Where can I see my Payslip?
+- salary slip
+- payslip
+- Salary slip report
+- I want my salary slip
+- can I have my salary slip
+- can I have my payslip
+- Could you please help me to find my salary slip
+- Could you please help me to get the salary slip
+- Well tell me where do i get my salary slip
+- Where can I see my salary slip?
+- payslip view
+- I want to view my salary report
+- I want to take a look of my salary slip report
+- I want to take a look of my salary report
+- I want to see my salary slip
+- Show me my pay slip
+- i want to see my payment slip

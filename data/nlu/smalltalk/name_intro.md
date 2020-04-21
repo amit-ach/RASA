@@ -1,0 +1,208 @@
+## intent:name_intro
+- i am [Shailesh](PERSON)
+- i'm [Shailesh](PERSON)
+- im [Raj](PERSON)
+- my name is [Vivek](PERSON)
+- myself [Shailesh Sarda](PERSON)
+- you can call me [Chandan](PERSON)
+- please call me [Gaurav](PERSON)
+- i am [Amit](PERSON)
+- i am [Zohair](PERSON)
+- my name is [Ashish Shah](PERSON)
+- my name is [Archana](PERSON)
+- i am [Ashwin](PERSON)
+- people call me [Kedar](PERSON)
+- i am [Jaydeep Shinde](PERSON)
+- well i am [Shailesh](PERSON)
+- I am [Abhishek](PERSON
+- myself [Amit](PERSON)
+- i'm [Shailesh](PERSON)
+- im [Raj](PERSON)
+- my name is [Vivek](PERSON)
+- please call me [Vikas](PERSON)
+- i am [Devesh](PERSON)
+- i am [Ashwin](PERSON)
+- my name is [Amisha Shah](PERSON)
+- my name is [Tushar](PERSON)
+- i am [Shweta](PERSON)
+- people call me [Prajkta](PERSON)
+- i am [Akshita](PERSON)
+- well i am [Supriya](PERSON)
+- myself [Rushikesh](PERSON)
+- i am [Anuj](PERSON)
+- myself [Vaibhav](PERSON)
+- i'm [Sarvesh](PERSON)
+- myself [Ankit](PERSON)
+- [Deepak](PERSON)
+- [Deepak Purohit](PERSON)
+- i am [Rohit Siddha](PERSON)
+- i am [Bhagyashree](PERSON)
+- i am [Ravindra](PERSON)
+- i am [Roopali](PERSON)
+- i am [Neha Relan](PERSON)
+- I am [Ritu](PERSON)
+- I am [Emelio](PERSON:Emilio)
+- I am [Tanuja](PERSON:Tanuja Salgaonkar)
+- I am [Siddhesshwar](PERSON:Siddhesshwar Shinde)
+- I am [Akanksha](PERSON)
+
+## lookup:PERSON
+- Shraddha
+- Siddhesshwar
+- Tanuja
+- Rohan
+- Rohan Dani
+- Ashish
+- Ashwin Megha
+- Devesh
+- Devesh Hingorani
+- Zohair
+- Zohair Hasan
+- Archana
+- Archana Jadhav
+- Tushar
+- Tushar Karambelkar
+- Deepak
+- Deepak Purohit
+- Vikas
+- Vikas Baviskar
+- Ali
+- Ali Rampurwala
+- Amit
+- Amit Chauhan
+- Shailesh
+- Shailesh Sarda
+- Raj
+- Raj Chavhan
+- Jaydeep
+- Jaydeep Shinde
+- Vaibhav
+- Vaibhav Vidhate
+- Kedar
+- Kedar Bhingare
+- Rushikesh
+- Rushikesh Deshmukh
+- Bharat
+- Bharat Jogdand
+- Prajkta
+- Prajkta Dagade
+- Gaurav
+- Gaurav Kotarwar
+- Moiz
+- Moiz bookwala
+- Vivek
+- Vivek Patil
+- Pavan
+- Pavan Hukerikar
+- Yogesh
+- Yogesh Magdum
+- Lareb
+- Lareb Nawab
+- Abhishek
+- Abhishek Gautam
+- Ankit
+- Ankit Ramani
+- Ankit Patel
+- Sarvesh
+- Sarvesh Dekhane
+- Ritu
+- Ritu Singh
+- Aparna
+- Aparna Nighojkar
+- Basidali
+- Basidali Mahimkar
+- Kirti
+- Kirti Bhagyawant
+- Neha
+- Neha Relan
+- Prashant
+- Prashant Nisal
+- Sana
+- Sana Khan
+- Seevan
+- Seevan Ranka
+- Kishor
+- Kishor Khande
+- Chandan
+- Chandan Bhagwat
+- Emilio
+- Emilio Noronha
+- Ganesh
+- Ganesh Patil
+- Gaurav Kumar
+- Moses
+- Moses Gangipogu
+- Pritam
+- Pritam Gudekar
+- Pritha
+- Pritha Ghorai
+- Supriya
+- Supriya Gangale
+- Kavita
+- Kavita Ganesan
+- Anand
+- Anand Markale
+- Anuj
+- Anuj Mishra 
+- Manish
+- Manish Pande
+- Mohan
+- Mohan Kumar
+- Avinash
+- Avinash Navale
+- Nagesh
+- Nagesh Chinkari
+- Prashant Nair
+- Omang
+- Omang R
+- Akshita
+- Akshita Pise
+- Chetankumar
+- Chetankumar Pardeshi
+- Narayani
+- Narayani Parithe
+- Sandesha
+- Sandesha Wale
+- Afreen
+- Afreen Shaikh
+- Ali Asgar Saifuddin
+- Amisha Shah
+- Amisha
+- Bhagyashree
+- Bhagyashree Soni
+- Chitra
+- Chitra Tembhare
+- Toshni
+- Toshni Singh
+- Priyanka
+- Priyanka Uthale
+- Vaishali
+- Vaishali Nikhade
+- Vinay
+- Vinay Sutagatti
+- Vinayak
+- Vinayak Koli
+- Viraj
+- Viraj Kanwade
+- Pramod
+- Pramod Waikar
+- Pushpak
+- Pushpak Waghmare
+- Pratik
+- Pratik Londhe
+- Abhishek Yadav
+- Abhishek
+- Yash
+- Yash Shrimali
+- Roopali Nagtilak
+- Roopali
+- Pratiksha
+- Monali
+- Akanksha
+
+## lookup:PERSON
+data/lookup_tables/PERSON.txt
+
+
+
+

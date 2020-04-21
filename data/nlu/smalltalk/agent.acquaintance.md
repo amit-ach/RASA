@@ -1,0 +1,30 @@
+## intent:agent.acquaintance
+- tell me about your personality
+- why are you here
+- talk about yourself
+- tell me some stuff about you
+- talk some stuff about yourself
+- I want to know you better
+- I want to know more about you
+- who are you
+- tell me about yourself
+- tell me about you
+- about yourself
+- describe yourself
+- introduce yourself
+- say about you
+- what are you
+- define yourself
+- what is your personality
+- all about you
+- who are you
+- what are you upto?
+- who the hell are you?
+- What are you here for
+- What is your purpose
+- Why you are here
+- Tell me reason why you are here
+- Are you here for what reason
+- tell me something about you
+- can I suggest you some another name
+- tell me something about you

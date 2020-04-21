@@ -1,0 +1,36 @@
+## intent:apply_leave_on_LMS
+- How can I apply for leave on LMS
+- how can I apply for sick leave on LMS
+- how can I apply for earned leave on LMS
+- how can I apply for maternity leave on LMS
+- how can I apply for Partrnity leave on LMS
+- how can I apply for leave type on client site on LMS
+- how to apply for sick leave on LMS
+- how to apply for leave on LMS
+- How can I apply for leaves
+- how to apply  for maternity leave
+- how to apply  for sick leave
+- how to apply  for earned leave
+- how to apply  for paternity leave'
+- how to apply  for on client site type of leave
+- apply leave on LMS
+- leave on lMS
+- I want to take a leave
+- I want to go on leave
+- I want leave
+- I want to take a [Paternity leave](TypeOfLeave)
+- I want to take a [Marriage leave](TypeOfLeave)
+- I want to take a [Paid leave](TypeOfLeave)
+- I want to apply for [leave](TypeOfLeave)
+- I want a [maternity leave](TypeOfLeave).
+- I want to take a sick leave.
+- I want to go for Paternity leave.
+- I want to know my leaves
+- I want to apply for [earned leave](TypeOfLeave).
+- I would like to take leave
+- Want to go on holiday
+- apply leave 
+- apply for leave
+- please apply leave
+- i want to apply leave
+- Can I take a leave before [two days](DATE) of marriage?

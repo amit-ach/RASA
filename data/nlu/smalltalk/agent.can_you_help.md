@@ -1,0 +1,68 @@
+## intent:agent.can_you_help
+- what can you do for me
+- I need you to help me
+- I need you to do something for me
+- which facilities you are providing?
+- I need a hand
+- will you help me
+- can you do something for me
+- help me with a problem
+- can you help me
+- help me
+- I am new here suggest me something
+- assistance
+- I need your help
+- I need help
+- you can help me
+- can you help me with something
+- can you help
+- Do you have any suggestions for me
+- assist
+- can u help me
+- I need some help
+- you help me
+- do you help me
+- could you give me a hand
+- can you help me out
+- need help
+- I need you
+- can you help me now
+- I want your help
+- need your help
+- assist me
+- are you going to help me
+- can you help me with that
+- help
+- I need you right no
+- would you help me
+- can you assist me
+- sos
+- do you want to help me
+- please help me
+- can you help us
+- do me a favor
+- are you gonna help me?
+- you ready to answer my question?
+- you tell me how you can help me?
+- i need some details
+- i need some information
+- i need your help in getting some info
+- can you give me some info
+- i want something
+- i want to know few details
+- will you provide some details
+- can you fetch some details for me
+- would you mind giving me some details
+- What can you do for me
+- How you can help me
+- Tell me how you can help me
+- You tell me how you can help me?
+- What can you do
+- Please help me to find something here
+- Help me to find hehe something new
+- may I know your purpose
+- You tell me first how you can help me
+- Whats your purpose
+- I need the info about policies
+- also tell me about other policies
+- tell me more about the policies

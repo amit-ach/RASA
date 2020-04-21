@@ -1,0 +1,90 @@
+## intent:contact_for_dailyNeeds
+- whom should I need to contact for daily needs
+- whom should I contact for notepad and pen
+- board/meeting room requests
+- board room requests
+- meeting room requests
+- [Telephone](DailyNeeds)
+- electrical
+- chairs
+- cupboards
+- [cafeteria](DailyNeeds)
+- [office facilities](DailyNeeds)
+- security
+- [reception contact](DailyNeeds)
+- [spoon shortage](DailyNeeds)
+- [toilet problem](DailyNeeds)
+- [bootles](DailyNeeds)
+- [fire extinguisher](DailyNeeds)
+- [drowers](DailyNeeds)
+- [lock](DailyNeeds)
+- I want pen where to contact
+- key issue
+- can I carry my laptop home
+- whom should I contact for free movement of a laptop
+- how to contact admin
+- [fire](DailyNeeds)
+- [washroom](DailyNeeds) issue
+- [plates shortage](DailyNeeds)
+- [cup](DailyNeeds)
+- [table](DailyNeeds)
+- when i will get my personal laptop
+- whom should I contact if In case I need to book urgent meeting room
+- [telephone issue is room](DailyNeeds)
+- keep [ac](DailyNeeds) slow
+- [air condition](DailyNeeds:ac) probelem
+- [spoon shortage in cafeteria](DailyNeeds)
+- its really very cold I am feeling on my chair whom should I need to contact to operate [AC](ORG).
+- i am feeling cold whom do i need to contact
+- how to contact admin
+- i need new bottle whom do I need to contact for
+- for new cup whom should I need to contact for
+- I need new cup for coffee where I need to contact for
+- Can I carry [laptop to home](DailyNeeds)
+- Whom should I contact for day to day general purpose needs
+- whom should I contact for day to day general purpose needs
+- whom to contact to general needs
+- [general needs](DailyNeeds)
+- Whom can I contact for [notepad](DailyNeeds)
+- Can I carry my laptop home
+- Whom should I contact for [free movement of a laptop](DailyNeeds)
+- whom should I contact for [pantry](DailyNeeds) issue
+- [snacks complaint](DailyNeeds)
+
+## lookup:DailyNeeds
+- Notepad
+- pen
+- table
+- pantry
+- board/meeting room requests
+- board room requests
+- meeting room requests
+- Telephone
+- electrical
+- chairs
+- cupboards
+- cafeteria
+- office facilities
+- security
+- reception contact
+- spoon shortage
+- toilet problem
+- bootles
+- fire extinguisher
+- drowers
+- lock
+- free movement of a laptop
+- carry laptop home
+- telephone issue is room
+- keep ac slow
+- air condition probelem
+- spoon shortage in cafeteria
+- tea bag
+- coffee
+- snaks
+- breakfast
+
+
+
+
+

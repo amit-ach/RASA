@@ -1,0 +1,14 @@
+## intent:office_timings
+- What are office timings
+- office timings
+- What is the office timings
+- May I know office timings
+- Can you tell me office timings
+- What is my office timings
+- May I know my office timings?
+- Can I get to know the work timings
+- my work timings
+- what are the work timings
+- Can i get to know my work timings?
+- [forgeahead](org)'s work timing
+- work time of [forgeahead](org)

@@ -1,0 +1,73 @@
+## intent:unnecessary_questions
+- does the company provide cab facility
+- does the company provide bus facility
+- gifts
+- prizes
+- honors received from outside agencies
+- honors received from outside vendors
+- recruitment of relatives
+- re-appointment of ex-employees
+- disability discrimination policy
+- group life insurance policy
+- does company provide lunch
+- does company provide dinner
+- does company provide snacks
+- does company provide breakfast
+- sexual harassment
+- eve-teasing
+- unsavory remarks
+- jokes that were demeaning to either sex and causing embarrassment
+- sexual advances or demand for sexual favors
+- innuendo and taunts
+- gender-based insults
+- sexist remarks and sexually colored comments
+- unwelcome sexual overtones in any manner,
+- touching or brushing against any part of the body
+- molestation or displaying pornographic or other derogatory pictures or sayings.
+- devaluation of women’s work
+- use of obscene or vulgar language
+- comments on appearances and character of women
+- comments about clothing, personal behavior or a person’s body
+- gender discrimination and physical and mental harassment at work
+- lodge complaints
+- disciplinary action
+- visiting card policy
+- business entertainment
+- company address proof
+- I need company address proof
+- i need company letter as address proof?
+- bullying
+- harassment
+- retirement age
+- involuntary termination
+- health and safety policy
+- physical security
+- office politics
+- is there anything weird about procedure and process
+- whom do i need to concern for sexual abuse
+- picknic
+- trip
+- I want to change my career
+- business trip
+- webinars
+- friday fun
+- annual day
+- who is [zohair](PERSON)
+- who is [devesh](PERSON)
+- who is [ashwin](PERSON)
+- who is [deepak purohit](PERSON)
+- monthly celebration
+- who is admin
+- who is manager
+- who is receptionist
+- how to contact zohair
+- how to contact project manager
+- who is cfo
+- who is chief financial officer
+- who is the head of product engineering
+- who is a chief operating officer
+- who is my team lead
+- my team lead
+- who is my lead
+- want to apply for the job
+- apply jobs

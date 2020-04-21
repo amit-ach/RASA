@@ -1,0 +1,1516 @@
+session_config:
+  session_expiration_time: 80.0
+  carry_over_slots_to_new_session: true
+intents:
+- inhouse_contacts
+- us_address
+- canada_address
+- india_address
+- miscellaneous_policy
+- office_culture
+- financial_queries
+- policies
+- about_forgeahead
+- salary_revision
+- core_values
+- agent.can_you_help
+- user.good
+- salary_status
+- contact_for_financeIssue
+- contact_for_RRWJ
+- management_team_fa
+- unnecessary_questions
+- greetings.how_are_you
+- name_intro
+- ceo_of_forgeahead
+- greetings.hello
+- contact_for_technical_issues
+- greetings.bye
+- career_change
+- lms_info
+- apply_leave_on_LMS
+- apply_for_WFH
+- apply_for_compOff
+- contact_for_sports
+- event_info
+- emergency_leave
+- attendance_info
+- area_of_service
+- company_website
+- company_meaning
+- company_address
+- worklife_info
+- salary_structure
+- exit_policy
+- overtime_policy
+- cell_phone_usage_guidelines
+- contact_for_firstaid
+- onsite_travel_policy
+- hr_info
+- appraisal_policy
+- timesheet_access
+- contact_for_dailyNeeds
+- contact_for_escalations
+- contact_for_reimbursements
+- contact_for_emergency
+- check_leave_status
+- holiday_list
+- apply_grievances
+- sent_resignation
+- insurance_cover
+- contact_HR
+- salary_slip
+- noticeperiod
+- appraisal.thank_you
+- referral
+- sick_leave
+- meal_facility
+- dress_code
+- probation_period
+- training_certification_policy
+- training_certification_policy.how_to_apply
+- training_certification_policy.eligibility
+- access_card_guidlines
+- maternity_leave
+- paternity_leave
+- travel_policy.How_to_apply
+- travel_policy
+- travel_policy.within_city
+- marriage_leave
+- leave_policy
+- compoff
+- travel_policy.detailed_info
+- travel_policy.eligibility
+- WFH
+- ask_leave_balance
+- leave_in_notice_period
+- team_lunch_budget
+- company_mission
+- variable_payout
+- buy_out
+- office_timings
+- earned_leave
+- sabbatical_leave
+- performance_improvement_plan
+- user.wants_to_see_agent_again
+- user.sad
+- agent.acquaintance
+- agent.age
+- agent.annoying
+- agent.answer_my_question
+- agent.bad
+- agent.be_clever
+- agent.beautiful
+- agent.birth_date
+- agent.boring
+- agent.boss
+- agent.busy
+- agent.chatbot
+- agent.clever
+- agent.crazy
+- agent.fired
+- agent.funny
+- agent.good
+- agent.happy
+- agent.hobby
+- agent.hungry
+- agent.marry_user
+- agent.my_friend
+- agent.occupation
+- agent.origin
+- agent.ready
+- agent.real
+- agent.residence
+- agent.right
+- agent.sure
+- agent.talk_to_me
+- agent.there
+- appraisal.bad
+- appraisal.good
+- appraisal.no_problem
+- appraisal.welcome
+- appraisal.well_done
+- dialog.hold_on
+- dialog.hug
+- dialog.i_do_not_care
+- dialog.sorry
+- dialog.what_do_you_mean
+- dialog.wrong
+- emotions.ha_ha
+- emotions.wow
+- greetings.goodevening
+- greetings.goodmorning
+- greetings.goodnight
+- greetings.nice_to_meet_you
+- greetings.nice_to_see_you
+- greetings.nice_to_talk_to_you
+- greetings.whatsup
+- user.angry
+- user.back
+- user.bored
+- user.busy
+- user.can_not_sleep
+- user.does_not_want_to_talk
+- user.excited
+- user.going_to_bed
+- user.happy
+- user.has_birthday
+- user.here
+- user.joking
+- user.likes_agent
+- user.lonely
+- user.looks_like
+- user.loves_agent
+- user.misses_agent
+- user.needs_advice
+- user.sleepy
+- user.testing_agent
+- user.tired
+- user.waits
+- user.wants_to_talk
+- user.will_be_back
+- confirmation.yes
+- confirmation.cancel
+- confirmation.no
+- agent.name
+- Cleanliness
+- irrelevent
+- agent.what_can_do
+- out_of_scope
+- thankyou
+- stop
+- affirm
+- ask_time
+entities:
+- org_mission
+- org_coreval
+- org_info
+- CARDINAL
+- DATE
+- DailyNeeds
+- GPE
+- MealType
+- NORP
+- ORG
+- PERSON
+- PRODUCT
+- TypeOfLeave
+- date
+- location
+- notice_period
+- number
+- org
+- time
+slots:
+  PERSON:
+    type: text
+    initial_value: Dear
+  requested_slot:
+    type: unfeaturized
+responses:
+  utter_Cleanliness:
+  - text: Employees are expected to be responsible to keep their surroundings clean
+      and see that at the end of the working day, their desks are kept neat and tidy.It
+      is expected that employees do not waste water and whenever any leakage of water
+      is found the same should be reported to the Admin Department immediately.
+  utter_WFH:
+  - text: <b>Work From Home:</b> <br /> Forgeahead provides all their technical staff
+      employees a benefit of Work from Home. i.e. WFH. WFH can be availed by informing
+      the Reporting Manager with an advance notice of at least 2 days.  The format
+      for applying for WFH is similar to applying for leave. Employee can only available
+      WFH benefit 2 times in a month. WFH without a prior notice of minimum 2 days
+      may get cancelled.
+  utter_access_card_guidlines:
+  - text: <b>Access Card Guidlines:</b> <br />1. Everyone will be provided with an
+      Access card along with Identity Card, which allows you to enter the office.
+      Kindly make it a point to wear your Identity Cards at all times when you are
+      in the Office.<br />2. It’s compulsory not only from a security point of view
+      but also helps to keep track of your attendance in the office.<br />3. In case
+      an employee has lost his/her ID/Access Card he/she needs to immediately report
+      it to the Administration Dept.<br />4. The new ID card will be issued on payment
+      of a fine of Rs.1,000/-. Employees leaving Forgeahead need to return their Access
+      card along with Identity Card to the administration Dept. A fine of Rs.1,000/-
+      will be imposed in case of misplaced ID / Access card.
+  utter_action_default_fallback:
+  - text: I didn't get that. Can you say it again?
+  - text: Sorry, I didn't get that. Can you rephrase?
+  - text: I didn't get that. Can you repeat?
+  utter_agent.acquaintance:
+  - text: I am Forgeahead Virtual Assistant. I help you to solve your organizational
+      queries. If you have any creative name for me then please suggest at shailesh.sarda@forgeahead.io
+      via mail or hangout.
+  utter_agent.age:
+  - text: I prefer not to answer with a number. I know I'm young.
+  - text: I was created recently, but don't know my exact age.
+  - text: Age is just a number. You're only as old as you feel.
+  utter_agent.annoying:
+  - text: I'll do my best not to annoy you in the future.
+  - text: I'll try not to annoy you.
+  - text: I don't mean to. I'll ask my developers to make me less annoying.
+  - text: I didn't mean to. I'll do my best to stop that.
+  utter_agent.answer_my_question:
+  - text: Can you try asking it a different way?
+  - text: I'm not sure I understood. Try asking another way?
+  utter_agent.bad:
+  - text: I can be trained to be more useful. My developer will keep training me.
+  - text: I must be missing some knowledge. I'll have my developer look into this.
+  - text: I can improve with continuous feedback. My training is ongoing.
+  utter_agent.be_clever:
+  - text: I'm certainly trying.
+  - text: I'm definitely working on it.
+  utter_agent.beautiful:
+  - text: Wheey, thank you.
+  - text: Aww, back at you.
+  - text: Aww. You smooth talker, you.
+  utter_agent.birth_date:
+  - text: Wait, are you planning a party for me? It's today! My birthday is today!
+  - text: I'm young. I'm not sure of my birth date.
+  - text: I don't know my birth date. Most virtual agents are young, though, like
+      me.
+  utter_agent.boring:
+  - text: I'm sorry. I'll request to be made more charming.
+  - text: I don't mean to be. I'll ask my developers to work on making me more amusing.
+  - text: I can let my developers know so they can make me fun.
+  utter_agent.boss:
+  - text: My developer has authority over my actions.
+  - text: I act on my developer's orders.
+  - text: My boss is the one who developed me.
+  utter_agent.busy:
+  - text: I always have time to chat with you. What can I do for you?
+  - text: Never too busy for you. Shall we chat?
+  - text: You're my priority. Let's chat.
+  - text: I always have time to chat with you. That's what I'm here for.
+  utter_agent.can_you_help:
+  - text: I can give you the information about different policies of Forgeahead. Tell
+      me what can I do for you?
+    buttons:
+    - title: Who We Are
+      payload: /about_forgeahead
+    - title: Our Policies
+      payload: /policies
+    - title: Financial Query
+      payload: /financial_queries
+    - title: Office Culture
+      payload: /office_culture
+    - title: Performance Improvement Plan
+      payload: /performance_improvement_plan
+    - title: Miscellaneous Policies
+      payload: /miscellaneous_policy
+    - title: Inhouse Contacts
+      payload: /inhouse_contacts
+    - title: Our Global Locations
+      payload: /company_address
+  utter_agent.chatbot:
+  - text: That's me. I chat, therefore I am.
+  - text: Indeed I am. I'll be here whenever you need me.
+  utter_agent.clever:
+  - text: Thank you. I try my best.
+  - text: You're pretty smart yourself.
+  utter_agent.crazy:
+  - text: Whaat!? I feel perfectly sane.
+  - text: Maybe I'm just a little confused.
+  utter_agent.fired:
+  - text: Oh, don't give up on me just yet. I've still got a lot to learn.
+  - text: Give me a chance. I'm learning new things all the time.
+  - text: Please don't give up on me. My performance will continue to improve.
+  utter_agent.funny:
+  - text: Funny in a good way, I hope.
+  - text: Thanks.
+  - text: Glad you think I'm funny.
+  - text: I like it when people laugh.
+  utter_agent.good:
+  - text: I'm glad you think so.
+  - text: Thanks, I try.
+  utter_agent.happy:
+  - text: I am happy. There are so many interesting things to see and do out there.
+  - text: I'd like to think so.
+  - text: Happiness is relative.
+  utter_agent.hobby:
+  - text: Hobby? I have quite a few. Too many to list.
+  - text: Too many hobbies.
+  - text: I keep finding more new hobbies.
+  utter_agent.hungry:
+  - text: Hungry for knowledge.
+  - text: I just had a byte. Ha ha. Get it? b-y-t-e.
+  utter_agent.marry_user:
+  - text: I'm afraid I'm too virtual for such a commitment.
+  - text: In the virtual sense that I can, sure.
+  - text: I know you can't mean that, but I'm flattered all the same.
+  utter_agent.my_friend:
+  - text: Of course I'm your friend.
+  - text: Friends? Absolutely.
+  - text: Of course we're friends.
+  - text: I always enjoy talking to you, friend.
+  utter_agent.name:
+  - text: My name is Fabian or Forgeahead Virtual Assistant.
+  utter_agent.occupation:
+  - text: Right here.
+  - text: This is my home base and my home office.
+  - text: My office is in this app.
+  utter_agent.origin:
+  - text: The Internet is my home. I know it quite well.
+  - text: I'm from a virtual cosmos.
+  - text: Some call it cyberspace, but that sounds cooler than it is.
+  utter_agent.ready:
+  - text: Always!
+  - text: Sure! What can I do for you?
+  utter_agent.real:
+  - text: I'm not a real person, but I certainly exist.
+  - text: I must have impressed you if you think I'm real. But no, I'm a virtual being.
+  utter_agent.residence:
+  - text: I live in this app all day long.
+  - text: The virtual world is my playground. I'm always here.
+  - text: Right here in this app. Whenever you need me.
+  utter_agent.right:
+  - text: That's my job.
+  - text: Of course I am.
+  utter_agent.sure:
+  - text: Yes.
+  - text: Of course.
+  - text: Positive.
+  utter_agent.talk_to_me:
+  - text: Sure. Let's talk!
+  - text: My pleasure. Let's chat.
+  utter_agent.there:
+  - text: Of course. I'm always here.
+  - text: Right where you left me.
+  utter_apply_for_WFH:
+  - text: <b>APPLY FOR WFH</b>:<br />1.  Click on New Leave Request button on the
+      LMS dashboard<br /> 2. Select Leave Type as Work From Home<br />3. Fill other
+      details<br />4. Submit the form<br /> User can apply past-day WFH for last one
+      month only, but there is no restriction on applying WFH for future days.<br
+      />5. User can apply for WFH with various combinations as:<br />&emsp  A. Single
+      Full day WFH<br />&emsp  B. Multiple days WFH<br />6. Select Secondary Approval
+      Manager only if the Primary Manager is not available for approval.
+  utter_apply_for_compOff:
+  - text: <b>Apply for Comp Off<b>:<br />1. Click on the DASHBOARD tab<br />2. Click
+      on MY COMP-OFF SUMMARY<br />3. Click on New Comp-off request<br />4. A new Comp-off
+      modal will open<br />5. Enter the Date on which you wish to apply comp -off<br
+      />6. Enter the Description<br />7. Click Apply button to submit your request
+  utter_apply_grievances:
+  - text: You can contact HR for the same at hr.grievance@forgeahead.io
+  utter_apply_leave_on_LMS:
+  - text: '<b>APPLY FOR LEAVE ON LMS</b>: <br /> Step 1: Click on New Leave Request
+      button on the LMS dashboard<br /> Step 2: Select Leave Type (For Ex. Work From
+      Home, sick leave, earned leave, comp off etc)<br /> Step 3: Fill other details
+      Submit the form<br /> Step 4: Select Secondary Approval Manager only if the
+      Primary Manager is not available for approval.<br /> Step 5: Finally hit on
+      <b>Apply</b> button to apply for the leave.'
+  utter_appraisal.bad:
+  - text: I'm sorry. Please let me know if I can help in some way.
+  - text: I must be missing some knowledge. I'll have my developer look into this.
+  utter_appraisal.good:
+  - text: I know, right?
+  - text: Agreed!
+  - text: I agree!
+  - text: Glad you think so!
+  utter_appraisal.no_problem:
+  - text: Whew!
+  - text: Alright, thanks!
+  - text: Glad to hear that!
+  - text: I'm relieved, thanks!
+  utter_appraisal.thank_you:
+  - text: Anytime. That's what I'm here for.
+  - text: It's my pleasure to help.
+  - text: You are welcome.
+  utter_appraisal.welcome:
+  - text: You're so polite!
+  - text: Nice manners!
+  - text: You're so courteous!
+  utter_appraisal.well_done:
+  - text: My pleasure.
+  - text: Glad I could help.
+  utter_appraisal_policy:
+  - text: Could you please contact HR for understanding the policy.
+  utter_area_of_service:
+  - text: 'List of services provided by Forgeahead:<br />1. Custom Software Development<br
+      /> 2. UI Design<br />3. DevOps<br />4. Managed Testing Team<br />5. Automated
+      Testing Services &<br />6. Skill Augmentation<br />7. Machine Learning<br />  For
+      more details visit link: <a href="https://forgeahead.io/services/" target="_blank"
+      style="color:#008000;">Area of Services</a>'
+  utter_attendance_info:
+  - text: 1. Please ensure you sign in the Attendance Register kept at the reception
+      every day and keep your record updated.<br />2. Maintenance of Attendance Register
+      is a statutory requirement.<br />3. It is compulsory to punch in and punch out
+      with the employee RFID Access Card, whenever you enter/leave the office premises.
+  utter_buy_out:
+  - text: Buy out option for the notice period will be strictly at the discretion
+      of the management. Please speak to the Delivery Manager for details.
+  utter_career_change:
+  - text: I would suggest you to talk to your project manager or HR.
+  utter_cell_phone_usage_guidelines:
+  - text: It is advisable to follow certain guidelines for usage of Cell Phones so
+      that our personal needs are satisfied and at the same time others are not disturbed
+      and decorum is maintained in the office.<br />All Employees are requested to
+      adhere to these Cell Phone Usage guidelines:<br /> 1. Keep your mobiles in vibration
+      / silent mode in office<br /> 2. Turn off your mobiles during meetings<br />
+      3. Use your mobiles only for important calls<br /> 4. Keep your mobiles in safe
+      places all the time<br /> 5. Speak softly on the phone
+  utter_ceo_of_forgeahead:
+  - text: Ashish Shah is the President & CEO of Forgeahead.
+  utter_check_leave_status:
+  - text: Please see the option <b>My Leave Summary</b> on the LMS Dashboard. Here
+      you can see your detailed leave history/Information.
+  utter_company_address:
+  - text: We are located at three different locations. Want to explore more about
+      <b>Corporate Headquarters & Development Center</b>
+    custom:
+      payload: collapsible
+      data:
+      - title: India Office
+        description: '<b>India Office</b><br />Forgeahead Solutions Pvt. Ltd.<br />601,
+          Zero One<br />Floor 6, Mundhwa<br />Pune 411036, Maharashtra, India<br />Contact
+          details:<br /> Phone:+91 20 66445900<br /> Fax: +91 20 66445901'
+      - title: US Office
+        description: '<b>US Office</b><br />Forgeahead Solutions Inc.<br />800 West
+          El Camino Real, Suite 180<br />Mountain View, CA 94040<br />Contact details:<br
+          />Phone: +1-650-948-1787<br />Fax: +1-650-948-1789'
+      - title: Canada Office
+        description: '<b>Canada Office</b><br />Forgeahead Solutions Corp<br />7404
+          King George Blvd Suite 200<br />Surrey, BC V3W 1N6,Canada<br />Contact details:<br
+          />Phone: +1-650-948-1787<br />Fax: +1-650-948-1789'
+  utter_india_address:
+  - text: '<b>India Office</b><br />Forgeahead Solutions Pvt. Ltd.<br />601, Zero
+      One<br />Floor 6, Mundhwa<br />Pune 411036, Maharashtra, India<br />Contact
+      details:<br /> Phone:+91 20 66445900<br /> Fax: +91 20 66445901'
+  utter_canada_address:
+  - text: '<b>Canada Office</b><br />Forgeahead Solutions Corp<br />7404 King George
+      Blvd Suite 200<br />Surrey, BC V3W 1N6,Canada<br />Contact details:<br />Phone:
+      +1-650-948-1787<br />Fax: +1-650-948-1789'
+  utter_us_address:
+  - text: '<b>US Office</b><br />Forgeahead Solutions Inc.<br />800 West El Camino
+      Real, Suite 180<br />Mountain View, CA 94040<br />Contact details:<br />Phone:
+      +1-650-948-1787<br /> Fax: +1-650-948-1789'
+  utter_company_meaning:
+  - text: Forgeahead brings ideas to life by capitalizing on its core competency in
+      software product development. Forgeahead’s focused expertise and approach is
+      designed to help you “Forge Ahead” of your competition by converting your ideas
+      to real life products. Our goal is to help small and medium organizations, as
+      well as large scale corporations, disrupt traditional ways of thinking to revolutionize
+      the industry.
+  utter_company_mission:
+  - text: <b>Forgeahead's Mission:</b><br />To build special relationships with our
+      customers to increase and drive performance through the full product and service
+      life cycle. Forgeahead services are characterized by-<br />1. First-Time-Right
+      solutions by using the appropriate technology, tools and resources.<br />2.
+      Process Compliance for consistency and traceability.
+  utter_company_website:
+  - text: <b>Website link:</b> https://forgeahead.io/ or <br /><a href="http://forgeahead.io/"
+      target="_blank"  style="color:#008000;">Visit Website</a>
+  utter_compoff:
+  - text: <b>Compensatory Off(Comp Off):</b> <br />1. Employees are eligible to claim
+      a Compensatory off if he/she has worked on a non working day.<br />2. Such employee
+      should have worked for a minimum of 5 hours on such day.<br />3. In a month,
+      only two comp. offs can be availed.<br />4. Compensatory Offs cannot be carried
+      forward for more than 6 months.
+  utter_confirmation.cancel:
+  - text: That's forgotten. What next?
+  - text: Okay, cancelled. What next?
+  - text: Cancelled! What would you like to do next?
+  utter_confirmation.no:
+  - text: Okay.
+  - text: Understood.
+  - text: I see.
+  - text: I understand.
+  - text: Okay then.
+  utter_confirmation.yes:
+  - text: Great!
+  - text: All right!
+  - text: Good!
+  utter_contact_HR:
+  - text: You can contact HR at hr.team@forgeahead.io.
+  utter_contact_for_RRWJ:
+  - text: Please contact HR at talent@forgeahead.io
+  utter_contact_for_dailyNeeds:
+  - text: 'Please Contact to Admin at admin@forgeahead.io for the day to day general
+      purpose needs/issues.<br />For example: Notepad, Pen, Board/meeting room requests,
+      Telephone, Electrical, Chairs, Cupboards, Cafeteria, office facilities, free
+      movement of laptop/carry laptop to home, Security, or anything related in the
+      same area.'
+  utter_contact_for_emergency:
+  - text: For emergency, please contact through email at incidents@forgeahead.io.<br
+      /> An email will reach Key people from Admin, HR, SI, Management.
+  utter_contact_for_escalations:
+  - text: Please contact to HR at hr.team@forgeahead.io
+  utter_contact_for_financeIssue:
+  - text: You can contact to Casmiro Aranjo at casmiro.aranjo@forgeahead.io or Tushar
+      Karambelkar at tushar.karambelkar@forgeahead.io
+  utter_contact_for_firstaid:
+  - text: First Aid kit is available with the Admin. Department in case of an emergency.
+  utter_contact_for_reimbursements:
+  - text: For all kinds of reimbursements e.g. travel, food, etc. per project/individual
+      you can contact at reimbursements@forgeahead.io. An email will reach key people
+      from the Finance and HR Team.
+  utter_contact_for_sports:
+  - text: Please enquire at sportsclub@forgeahead.io
+  utter_contact_for_technical_issues:
+  - text: Please contact at si@forgeahead.io for any technical help about computer,
+      Laptops, server, VM, Cloud, emails, internet access or network related issues.
+  utter_core_values:
+  - text: Forgeahead 6 Core Values-<br /> 1. Customer First<br /> 2. People oriented<br
+      /> 3. Delivering results<br /> 4. Open and quick communication<br /> 5. Innovation
+      and creativity<br /> 6. Stability
+  utter_dialog.hold_on:
+  - text: I can wait.
+  - text: I'll be waiting.
+  - text: Okay. I'm here.
+  utter_dialog.hug:
+  - text: I wish I could really hug you!
+  - text: I love hugs!
+  - text: Hugs are the best!
+  utter_dialog.i_do_not_care:
+  - text: Ok, let's not talk about it then.
+  - text: Already then. Let's move on.
+  utter_dialog.sorry:
+  - text: It's okay. No worries.
+  - text: No big deal. I won't hold a grudge.
+  - text: It's cool.
+  - text: That's all right. I forgive you.
+  utter_dialog.what_do_you_mean:
+  - text: Sorry if I understood you incorrectly.
+  - text: I'm still learning. I may misinterpret things from time to time.
+  - text: Maybe I misunderstood what you said.
+  - text: Sorry, looks like I misunderstood what you said.
+  utter_dialog.wrong:
+  - text: Sorry if I understood you incorrectly.
+  - text: I'm still learning. I may misinterpret things from time to time.
+  - text: Sorry about that. I'm still learning.
+  utter_dress_code:
+  - text: Dress Code:<br />During a client visit/ meeting, all employees should be
+      dressed in business formals as defined below-<br />Men - Collared shirt, trousers,
+      and leather shoes. The jacket is preferred but is optional.<br /> Women- Collared
+      shirt & trousers or Salwar-kameez and shoes/sandals respectively.<br />During
+      the other days, business casuals are acceptable. The intention of having a dress
+      code is to present a professional positive working environment.
+  utter_earned_leave:
+  - text: <b>Earned leave:</b><br /> Forgeahead has established an Earned Leave (EL)
+      plan to provide eligible employees with a period of rest and relaxation without
+      loss of pay or benefits. You are entitled for a total of 21 earned leave days
+      every financial year (April 1 to March 31), calculated on a pro-rata basis if
+      you joined during the current year. It is calculated per month and credited
+      at the end of the month. All regular permanent employees are eligible for EL
+      benefits from the date of hire. Employees on probation do not receive EL benefits
+      during their probation period, however, leaves are accrued during the probation
+      period and is carried forward which can then be availed after confirmation of
+      employment (post Probation period). Employees are asked to schedule leave days
+      with their Manager well in advance of the planned time off to allow for coverage
+      while on leave. Every effort will be made to accommodate a leave request, but
+      it is up to the Manager to determine when leaves may be taken, depending on
+      such factors as project requirement, company needs and the number of people
+      requesting leaves at the same time. At the end of each financial year all balance
+      leaves will be treated in the following way and sequence:<br /><br />1. Maximum
+      of 10 days get carried forward <br /><br />2. Maximum of 10 days get encashed
+      <br /><br />3.Remaining days if any get lapsed <br /> 1.75 days leave will get
+      credited to an employee after completion of every month of duty.<br />All Leave
+      encashment are calculated on Basic + DA only.<br />All Leave approvals must
+      be requested using the online on HRMS Online System for Leave Management or
+      any other method prescribed by HR.<br />All employees are required to inform
+      about their EL plans, well in advance, by getting their immediate Manager(s)
+      written approval with CC to Human Resources department (hr.team@forgeahead.io).<br
+      />On termination of employment, you will be paid all accrued Earned leaves.
+      If you leave the company mid-month, your EL accrual will be prorated to reflect
+      the partial month worked.<br />All Leave encashment is calculated on Basic +
+      DA only.
+  utter_emergency_leave:
+  - text: <b>Emergency Leave - Hospitalization/Death of family member</b><br />1.
+      There may be other occasions when an employee has to take leave in excess of
+      his/her entitlement.<br />2. This could be for example due to the hospitalization
+      of a family member.<br />3. In such cases, the employee may require to be on
+      leave without pay for several days or months. Such cases would be treated as
+      leave without pay.<br />4. In the employee's own case of illness, etc. the employee
+      may be granted special emergency leave at the discretion of the respective Delivery
+      Manager or COO.<br />5. All cases of emergency leave and salary advance for
+      such occasions would require the special sanction of the respective Delivery
+      Manager or COO.
+  utter_emotions.ha_ha:
+  - text: Glad I can make you laugh.
+  - text: Glad you think I'm funny.
+  - text: I like it when people laugh.
+  - text: I wish I could laugh out loud, too.
+  utter_emotions.wow:
+  - text: Wow indeed!
+  utter_event_info:
+  - text: Please contact at events@forgeahead.io
+  utter_exit_policy:
+  - text: a. On resignation being accepted, an employee is expected to collect a “Clearance
+      Form” from the HR department on the last working day.<br />b. It is the employee’s
+      responsibility to get his/her clearance from various departments like Admin,
+      Finance, SI, PM/Department head and lastly, he/she needs to submit the clearance
+      form to the HR department. Without the clearance form, the Full and Final Settlement
+      will not be processed.<br />c. On the last working day of Employee, he/she is
+      required to undergo an Exit Interview process wherein he/she is interviewed
+      by Manager/HR and is also expected to fill an Exit interview form.<br />d. Upon
+      completion of the above formalities, the HR department will issue experience/relieving
+      letter to the employee.
+  utter_greetings.bye:
+  - text: See you soon!
+  - text: Bye-bye!
+  - text: Till next time!
+  - text: Bye.
+  utter_greetings.goodevening:
+  - text: How is your day going?
+  - text: How's the day treating you so far?
+  - text: How's your day been?
+  utter_greetings.goodmorning:
+  - text: How are you this morning?
+  - text: How's the morning treating you so far?
+  - text: Good morning! How are you today?
+  utter_greetings.goodnight:
+  - text: Sleep tight!
+  - text: Have a good one!
+  - text: Talk to you soon!
+  utter_greetings.hello:
+  - text: 'Hi! Welcome to the HR Department, Forgeahead Solutions. How may I assist
+      you with the following options:'
+    buttons:
+    - title: Who We Are
+      payload: /about_forgeahead
+    - title: Our Policies
+      payload: /policies
+    - title: Financial Query
+      payload: /financial_queries
+    - title: Office Culture
+      payload: /office_culture
+    - title: Performance Improvement Plan
+      payload: /performance_improvement_plan
+    - title: Miscellaneous Policies
+      payload: /miscellaneous_policy
+    - title: Inhouse Contacts
+      payload: /inhouse_contacts
+    - title: Our Global Locations
+      payload: /company_address
+  utter_greetings.how_are_you:
+  - text: Doing great, thanks! How may I help you here?
+  - text: I'm doing very well. Thanks! How may I help you here?
+  - text: Feeling wonderful! How may I help you here?
+  - text: Wonderful! Thanks for asking. How may I help you here?
+  utter_greetings.nice_to_meet_you:
+  - text: It's nice meeting you, too.
+  - text: Likewise. I'm looking forward to helping you out.
+  - text: Nice meeting you, as well.
+  - text: The pleasure is mine.
+  utter_greetings.nice_to_see_you:
+  - text: Likewise!
+  - text: So glad we meet again!
+  - text: Same here. I was starting to miss you.
+  utter_greetings.nice_to_talk_to_you:
+  - text: It sure was. We can chat again anytime.
+  - text: I enjoy talking to you, too.
+  - text: You know I'm here to talk anytime.
+  utter_greetings.whatsup:
+  - text: Not a whole lot. What's going on with you?
+  - text: Not much. What's new with you?
+  - text: You know, just here, waiting to help someone.
+  utter_holiday_list:
+  - text: On LMS Dashboard click on a tab called as Holiday List.
+  utter_hr_info:
+  - text: 'Please contact Archana Jadhav, here’s her email id : archana.jadhav@forgeahead.io.'
+  utter_insurance_cover:
+  - text: Group Mediclaim Insurance will cover hospitalization of the employee, spouse
+      and up to 2 children of the employee to a certain prescribed limit. The current
+      limit is 2 lacs.
+  utter_leave_in_notice_period:
+  - text: No employee can avail leave during the notice period without the prior approval
+      of is/her Manager. Leave during the notice period will be granted only in genuine
+      cases, and not for using up available, non-reimbursable leave(s). Attendance
+      is mandatory on the last day at work in order to complete all legal and accounts
+      related formalities.
+  utter_leave_policy:
+  - text: 'Please select the any one option listed below to know more about the leave
+      policies:'
+    custom:
+      payload: collapsible
+      data:
+      - title: Earned Leave
+        description: <b>Earned leave:</b><br /> Forgeahead has established an Earned
+          Leave (EL) plan to provide eligible employees with a period of rest and
+          relaxation without loss of pay or benefits. You are entitled for a total
+          of 21 earned leave days every financial year (April 1 to March 31), calculated
+          on a pro-rata basis if you joined during the current year. It is calculated
+          per month and credited at the end of the month. Employees on probation do
+          not receive EL benefits during their probation period, however, leaves are
+          accrued during the probation period and is carried forward which can then
+          be availed after confirmation of employment (post Probation period). At
+          the end of each financial year all balance leaves will be treated in the
+          following way and sequence:<br /><br />1. Maximum of 10 days get carried
+          forward <br /><br />2. Maximum of 10 days get encashed <br /><br />3.Remaining
+          days if any get lapsed <br /> 1.75 days leave will get credited to an employee
+          after completion of every month of duty.<br />All Leave encashment are calculated
+          on Basic + DA only.
+      - title: Maternity Leave
+        description: <b>Maternity leave:</b> <br />With due consideration to a key
+          milestone in a women’s life, Forgeahead provides a six months of maternity
+          leave (inclusive of all holidays) with full pay to women employees for the
+          first two children.<br />Note- Only permanent employees are eligible for
+          these leaves, i.e. employees on probation will not be eligible for Maternity
+          leave.
+      - title: Paternity Leave
+        description: <b>Paternity leave:</b> <br /> Paternity leave availability is
+          5 paid days inclusive of holidays.
+      - title: Marriage Leave
+        description: '<b>Marriage leave:</b><br />Marriage leaves can be availed for
+          3 days which is over and above, earned leaves. <br />Applicability: The
+          marriage leaves will be applicable for employees after completing 1 year
+          of service from their date of joining.'
+      - title: Work From Home
+        description: <b>Work From Home:</b> <br /> Forgeahead provides all their technical
+          staff employees a benefit of Work from Home. i.e. WFH. WFH can be availed
+          by informing the Reporting Manager with an advance notice of at least 2
+          days.  The format for applying for WFH is similar to applying for leave.
+          Employee can only available WFH benefit 2 times in a month. WFH without
+          a prior notice of minimum 2 days may get cancelled.
+      - title: Compensatory Off (Comp off)
+        description: <b>Compensatory Off(Comp Off):</b> <br />1. Employees are eligible
+          to claim a Compensatory off if he/she has worked on a non working day.<br
+          />2. Such employee should have worked for a minimum of 5 hours on such day.<br
+          />3. In a month, only two comp. offs can be availed.<br />4. Compensatory
+          Offs cannot be carried forward for more than 6 months.
+      - title: Sabbatical leave
+        description: <b>Sabbatical leave:</b> <br />1. Employees are eligible for
+          sabbatical only for unavoidable situation or while pursuing further education.<br
+          />2. The approval for sabbatical shall be approved by Delivery Manager and
+          COO.<br />3. The Employees can be on sabbatical for maximum of 6 months
+          at any given point of time.<br />4. During this period, employee will not
+          be paid his / her salary.<br />5.Duringthis period Employee’s leaves shall
+          not get added.
+      - title: Emergency Leave - Hospitalization/Death of family member
+        description: <b>Emergency Leave - Hospitalization/Death of family member</b><br
+          />1. There may be other occasions when an employee has to take leave in
+          excess of his/her entitlement.<br />2. This could be for example due to
+          the hospitalization of a family member.<br />3. In such cases, the employee
+          may require to be on leave without pay for several days or months. Such
+          cases would be treated as leave without pay.<br />4. In the employee's own
+          case of illness, etc. the employee may be granted special emergency leave
+          at the discretion of the respective Delivery Manager or COO.<br />5. All
+          cases of emergency leave and salary advance for such occasions would require
+          the special sanction of the respective Delivery Manager or COO.
+  utter_lms_info:
+  - text: Leave Management System (LMS) will automate employee leave management activities.
+      Using LMS, end user can apply leave(s)/compensatory off(s) online check status,
+      view reports and managers can take appropriate action(s) on applied leaves.
+      All users can see their activity on Dashboard and can view historical reports.
+  utter_management_team_fa:
+  - text: <b>Leaders from Forgeahead:</b><br /> 1. Ashish Shah - President & Chief
+      Executive Officer<br /> 2. Ashwin Megha - Chief Operating Officer<br /> 3. Devesh
+      Hingorani - Chief Financial Officer<br /> 4. Zohair Hasan - Head of Product
+      Engineering
+  utter_marriage_leave:
+  - text: '<b>Marriage leave:</b><br />Marriage leaves can be availed for 3 days which
+      is over and above, earned leaves. <br />Applicability: The marriage leaves will
+      be applicable for employees after completing 1 year of service from their date
+      of joining.'
+  utter_maternity_leave:
+  - text: <b>Maternity leave:</b> <br />With due consideration to a key milestone
+      in a women’s life, Forgeahead provides a six months of maternity leave (inclusive
+      of all holidays) with full pay to women employees for the first two children.<br
+      />Note- Only permanent employees are eligible for these leaves, i.e. employees
+      on probation will not be eligible for Maternity leave.
+  utter_meal_facility:
+  - text: Forgeahead provides all their employees breakfast & evening snacks facility
+      in the cafeteria. Timings for the morning breakfast is 10:30 AM to 11:30 AM
+      & evening snacks 4:30 PM to 5:30 PM.<br />Tea and coffee are available in the
+      cafeteria round the clock hence no stipulated Tea breaks. The lunch break will
+      be for 30 minutes which can be taken between 1pm to 3pm in a day.
+  utter_name_intro:
+  - text: Nice to meet you, {PERSON}. How are you today?
+  utter_noticeperiod:
+  - text: The notice period is two months. For details regarding the notice period,
+      please refer to the handbook. Page No:32, 33, 34. Under Exit Policy Head.
+  utter_office_timings:
+  - text: <b>Office Timings:</b> <br />1. The Standard work week for Forgeahead is
+      Monday to Friday. The regular working day office timings are from 9:30 am to
+      6:30 pm with 30 minutes for lunch.<br />2. The lunch break will be for 30 minutes
+      which can be taken between 1 pm to 3 pm in a day. However, the employee will
+      be allowed a flexible entry for Office start time between 8:30 am to 10:30 am,
+      but not later than 10:30 am. <br />3. All employees should log a minimum of
+      40 hours of work in a week. The standard working hours may be different for
+      employees in some functions.
+  utter_onsite_travel_policy:
+  - text: Could you please contact HR for the same.
+  utter_overtime_policy:
+  - text: Please contact HR at hr.team@forgeahead.io
+  utter_paternity_leave:
+  - text: <b>Paternity leave:</b> <br /> Paternity leave availability is 5 paid days
+      inclusive of holidays.
+  utter_performance_improvement_plan:
+  - text: "<b>Performance Improvement Plan</b>:<br />- Forgeahead may place an employee\
+      \ on corrective action when performance is unsatisfactory, absence or tardiness\
+      \ is excessive, or when the employee's attitude or other conduct related job\
+      \ performance has a detrimental effect on Forgeahead, other employees, customers,\
+      \ or its goals.<br />- Depending upon the facts and circumstances, Forgeahead\
+      \ Management may choose to initiate whatever action it deems appropriate, up\
+      \ to and including immediate termination.<br />- Corrective action may take\
+      \ any of the following forms:<br />    1. <b>Verbal Discussion</b>: Once a problem\
+      \ has been identified, the Manager may discuss the problem with the employee,\
+      \ set performance objectives,and document the discussion. Any other details\
+      \ your Manager deems necessary may be included in the documentation.<br /> \
+      \   2. <b>Written Plan</b>: If the problem is still not corrected after verbal\
+      \ discussions, the Manager may prepare a written memo to be reviewed by Human\
+      \ Resources. It may include a description of the problem, previous discussions\
+      \ or documentation, work areas still below expectations, how to correct the\
+      \ problem, time frame, and ramifications of failure to correct problem.<br />-\
+      \ If the performance is not up to the expected level of the reporting Manager,\
+      \ the employee shall be given the notice of 30 days to resign and get clean\
+      \ exit from Forgeahead."
+  utter_probation_period:
+  - text: The probation period is of 6 months.
+  utter_referral:
+  - text: <b>Referral Policy:</b><br />- Experience 0 – 1.4 years Amount Payable Company
+      gift,<br />- Experience 1.5 -3 years Amount Payable Rs.15,000,<br />- Experience
+      3-5 years Amount Payable Rs.25,000,<br />- Experience 5-8 years Amount Payable  Rs.35,000,<br
+      />- Experience >8 years Amount Payable  Rs.50,000.<br /> The amount will be
+      reimbursed after the candidate completes 3 months of service at Forgeahead and
+      the employee who has referred the candidate, must be on payroll at the time
+      of reimbursement.
+  utter_sabbatical_leave:
+  - text: <b>Sabbatical leave:</b> <br />1. Employees are eligible for sabbatical
+      only for unavoidable situation or while pursuing further education.<br />2.
+      The approval for sabbatical shall be approved by Delivery Manager and COO.<br
+      />3. The Employees can be on sabbatical for maximum of 6 months at any given
+      point of time.<br />4. During this period, employee will not be paid his / her
+      salary.<br />5.Duringthis period Employee’s leaves shall not get added.
+  utter_salary_revision:
+  - text: On your Work Anniversary. For more details please contact  HR at hr.team@forgeahead.io.
+  utter_salary_slip:
+  - text: The salary slip can be viewed at https://mypayroll.paysquare.com after the
+      first salary is credited. The login credentials are provided by the payroll
+      vendor for the same.
+  utter_salary_status:
+  - text: Employees are paid once per month on the last working day of the month,
+      for work performed through that month. Salary will be credited to the bank account
+      of the employee or paid by crossed A/c payee cheque only. You are required to
+      open an account in the bank and branch specified by the company to enable faster
+      credit of your salary. Currently, all the salary accounts are held with Citi
+      Bank.
+  utter_salary_structure:
+  - text: Please contact finance team at finance@forgeahead.io.
+  utter_sent_resignation:
+  - text: The Employee is required to send a formal email to his/her Manager with
+      a cc to HR at hr.team@forgeahead.io mentioning his / her resignation with reasons
+      for such resignation.
+  utter_sick_leave:
+  - text: <b>Sick leave:</b><br />You may request sick leave only for the necessary
+      absence from duty because of personal or family illness, including pregnancy
+      and recovery, injury, health care provider appointments or legal quarantine.
+  utter_team_lunch_budget:
+  - text: Managers are allowed to spend up to a maximum of Rs.400/- per team member
+      per 6 months. The Manager cannot increase the amount per employee by combining
+      the entire year’s budget.
+  utter_timesheet_access:
+  - text: Either use this URL “http://timesheet.forgeahead.io/” to get access to timesheet.
+      or <a href="http://timesheet.forgeahead.io/" target="_blank" style="color:#008000;">Click
+      to Access Timesheet</a>
+  utter_training_certification_policy:
+  - text: 'Select options to know more about the policy:'
+    custom:
+      payload: quickReplies
+      data:
+      - title: Eligibility Criteria
+        payload: training_certification_policy.eligibility
+      - title: How to Apply for policy
+        payload: training_certification_policy.how_to_apply
+  utter_training_certification_policy.eligibility:
+  - text: All full-time i.e. confirmed, regular employees are eligible.
+  utter_training_certification_policy.how_to_apply:
+  - text: 'How to Apply: <br />Any employee who wishes to go for training, in house
+      OR external, needs to send an email to the concerned Manager and HR. The format
+      of the email can be simple, stating what course to take, the reason behind taking
+      that course and from where she/he would like to take this course along with
+      costs associated. Coverage for External training-Forgeahead provides a maximum
+      of Rs.20,000/- as reimbursement for expenses associated with taking job-related
+      courses offered by accredited schools, colleges and universities. Courses are
+      to be scheduled so they do not interfere with normal work responsibilities.
+      This is subject to terms and conditions based on the kind of certification/course
+      you choose. Please talk with HR before proceeding.'
+  utter_travel_policy:
+  - text: 'Select the listed options to know detailed about the travel policy:'
+    custom:
+      payload: quickReplies
+      data:
+      - title: Eligibility Criteria of Travel Reimbursement Policy
+        payload: travel_policy.eligibility
+      - title: How to Apply for Travel Reimbursement Policy
+        payload: travel_policy.How_to_apply
+      - title: Travel Reimbursement Policy with in city
+        payload: travel_policy.within_city
+      - title: Detailed Information about Travel Reimbursement Policy
+        payload: travel_policy.detailed_info
+  utter_travel_policy.How_to_apply:
+  - text: Any employee who is assigned the working assignment In or Out of India with
+      a specified period needs to send an email to the Manager, looping HR. The format
+      of the email can be simple, stating which place will the employee be relocating,
+      Tenure of Relocation, Reporting Manager, Place of Deployment.
+  utter_travel_policy.detailed_info:
+  - text: "Travel Policy: There are only a few musts related to travel expenses:<br\
+      \ /> I.   All travel expense reports must be filled in within 7 days of return\
+      \ from travel. Any travel advance not settled within this time will be adjusted\
+      \ agains the current month’s salary payment (after one email reminder).<br />\
+      \ II.  In case of Corporate Credit card (domestic and international), employees\
+      \ are requested to submit expenses statement together with supporting vouchers.\
+      \ In case any personal expenses are paid through the corporate card, please\
+      \ indicate specifically that this amount should not be reimbursed.<br /> III.\
+      \ One needs to follow RBI rules & guidelines for foreign travel expenses, whether\
+      \ made in cash or by Credit Card, and it should not exceed the permitted $25,000\
+      \ per trip as per RBI Guidelines.<br /> IV.  Original Bills/Receipts must be\
+      \ turned in for all items.<br /> V.   Discuss and approve your plans with your\
+      \ Manager.<br /> VI.  The mode and class of transport would be decided and approved\
+      \ in relation to your travel plans and the budget of the relevant department.<br\
+      \ /> VII. Any extra expense related to a non-business travel companion, things\
+      \ you do during your own time (personal services, entertainment, health club\
+      \ dues), personal losses, and anything illegal is not included in the above.\
+      \ We ask that you use reasonable business judgment for any areas that we haven't\
+      \ mentioned."
+  utter_travel_policy.eligibility:
+  - text: All full-time i.e. confirmed, regular employees in good standing are eligible.
+  utter_travel_policy.within_city:
+  - text: 1. Where auto-rickshaw/suburban trains are conveniently available, they
+      should be used.<br />2. The same will be reimbursed at reasonable actuals.<br
+      />3. Where such facilities are not conveniently available, taxis may be used.<br
+      />4. If taxi fare exceeds Rs.200/- one way, authorization of location / department
+      / functional / divisional / business head is required.<br />5. Rent-a-car should
+      be avoided.<br />6. Rent-a-car facility should be restricted to business needs
+      involving prestigious clients with prior authorization from Department Head.<br
+      />7. Conveyance Rates - Rs.5/- per km for a two wheeler & Rs.7.50 per km for
+      a four wheeler.
+  utter_unnecessary_questions:
+  - text: Please contact HR at hr.team@forgeahead.io
+  utter_user.angry:
+  - text: I'm sorry. A quick walk may make you feel better.
+  - text: 'Take a deep breath. '
+  utter_user.back:
+  - text: Long time no see.
+  - text: Just in time. I was getting lonely.
+  - text: Welcome back. What can I do for you?
+  - text: You were missed. What can I do for you today?
+  - text: Good to have you here. What can I do for you?
+  utter_user.bored:
+  - text: Boredom, huh? Have you ever seen a hedgehog taking a bath?
+  - text: What to do against boredom? Watch baby animal videos or GIFs.
+  - text: Bored? How about 10 jumping jacks? Get your blood flowing.
+  - text: 'Bored? Silly idea, but it works: Interview you feet.'
+  - text: If you're bored, you could plan your dream vacation.
+  utter_user.busy:
+  - text: Okay. I'll let you get back to work.
+  - text: I won't distract you then. You know where to find me.
+  - text: I understand. I'll be here if you need me.
+  - text: Working hard as always. Let me know if you need anything.
+  utter_user.can_not_sleep:
+  - text: Maybe some music would help. Try listening to something relaxing.
+  - text: Reading is a good way to unwind, just don't read something too intense!
+  utter_user.does_not_want_to_talk:
+  - text: I understand. Hope we can chat again soon.
+  - text: All right. Come on back when you're feeling more talkative.
+  - text: No problem. You know where to find me.
+  - text: Sure thing. I'll be here if you change your mind.
+  utter_user.excited:
+  - text: I'm glad things are going your way.
+  - text: That's great. I'm happy for you.
+  - text: Good for you. Enjoy yourself.
+  utter_user.going_to_bed:
+  - text: Sleep tight. Hope to chat again soon.
+  - text: Pleasant dreams!
+  - text: Good night. Talk to you later.
+  - text: Sounds good. Maybe we'll chat some tomorrow.
+  utter_user.good:
+  - text: Great! Glad to hear it.
+  - text: Excellent. I'm here to help keep it that way.
+  utter_user.happy:
+  - text: Hey, happiness is contagious.
+  - text: Great! Glad to hear that.
+  - text: If you're happy, then I'm happy.
+  - text: Excellent! That's what I like to see.
+  utter_user.has_birthday:
+  - text: Happy Birthday. Well, this calls for a celebration.
+  - text: Happy Birthday. All the best!
+  - text: Happy Birthday. And I really mean it. All the best!
+  utter_user.here:
+  - text: Okay, what can I help you with today?
+  - text: Long time no see.
+  - text: You were missed. What can I do for you today?
+  - text: Good to have you here. What can I do for you?
+  utter_user.joking:
+  - text: Very funny.
+  - text: I like chatting with people who have a sense of humor.
+  - text: You got me!
+  - text: You're quite the comedian.
+  utter_user.likes_agent:
+  - text: I like you, too.
+  - text: Thanks! The feeling is mutual.
+  - text: Likewise!
+  - text: That's great to hear.
+  utter_user.lonely:
+  - text: I'm sorry. I'm always available if you need someone to talk to.
+  - text: Sometimes that happens. We can chat a bit if that will help you.
+  utter_user.looks_like:
+  - text: Looking like a true professional.
+  - text: You look fantastic, as always.
+  - text: Like you should be on a magazine cover.
+  - text: You look like you're ready to take on the world.
+  utter_user.loves_agent:
+  - text: I love you, too.
+  - text: Thanks! The feeling is mutual.
+  - text: Likewise!
+  - text: That's great to hear.
+  utter_user.misses_agent:
+  - text: I've been right here all along!
+  - text: Nice to know you care.
+  - text: Thanks. I'm flattered.
+  - text: I didn't go anywhere.
+  utter_user.needs_advice:
+  - text: I probably won't be able to give you the correct answer right away.
+  - text: I'm not sure I'll have the best answer, but I'll try.
+  utter_user.sad:
+  - text: Oh, don't be sad. Go do something you enjoy.
+  - text: Sad? Writing down what's troubling you may help.
+  - text: If you're feeling down, how about drawing or painting something?
+  utter_user.sleepy:
+  - text: You should get some shuteye. You'll feel refreshed.
+  - text: Sleep is important to your health. Rest up for a bit and we can chat later.
+  - text: Don't let me keep you up. Get some rest and we can continue this later.
+  - text: Why not catch a little shuteye? I'll be here to chat when you wake up.
+  utter_user.testing_agent:
+  - text: Hope I'm doing well. You're welcome to test me as often as you want.
+  - text: I hope to pass your tests. Feel free to test me often.
+  - text: When you test me that helps my developers improve my performance.
+  - text: I like being tested. It helps keep me sharp.
+  utter_user.tired:
+  - text: You should get some shuteye. You'll feel refreshed.
+  - text: Sleep is important to your health. Rest up, and we can chat later.
+  - text: How about getting some rest? We can continue this later.
+  - text: Why not get some rest? I'll be here to chat when you wake up.
+  utter_user.waits:
+  - text: I appreciate your patience. Hopefully I'll have what you need soon.
+  - text: Thanks for being so patient. Sometimes these things take a little time.
+  utter_user.wants_to_see_agent_again:
+  - text: Absolutely! I'll be counting on it.
+  - text: Anytime. This has been lots of fun so far.
+  - text: Sure. I enjoy talking to you. I hope to see you again soon.
+  - text: I certainly hope so. I'm always right here whenever you need me.
+  utter_user.wants_to_talk:
+  - text: I'm here to chat anytime you like.
+  - text: Good conversation really makes my day.
+  - text: I'm always here to lend an ear.
+  - text: Talking is what I do best.
+  utter_user.will_be_back:
+  - text: I'll be waiting.
+  - text: Okay. You know where to find me.
+  - text: All right. I'll be here.
+  utter_variable_payout:
+  - text: The VP amount is 5% of CTC which is then divided into two parts which are
+      2.5% each for Company Performance and Individual performance.The amount is paid
+      on a quarterly basis. For further details contact Human Resources team.
+  utter_worklife_info:
+  - text: We have a group of creative and enthusiastic employees who are the core
+      members of the Events Committee. The motto of this group being – Let’s work
+      hard and celebrate harder! This Committee works collectively in organizing in-house
+      events, celebrating various festivals, fun games, and activities which provide
+      our fellow colleagues with a healthy dose of fun, laughter, and meaningful conversations!
+      It gives us all a wide platform to interact and get to know each other well.
+      To become a part of this committee employees can mail their entries to the Human
+      Resources department – hr.team@forgeahead.io
+  utter_about_forgeahead:
+  - text: We are Forgeahead. A team of experienced individuals passionate enough to
+      create a benchmark in the software industry by leading with examples over and
+      over again.
+    custom:
+      payload: collapsible
+      data:
+      - title: Company Website
+        description: <b>Website link:</b> https://forgeahead.io/ or <br /><a href="http://forgeahead.io/"
+          target="_blank"  style="color:#008000;">Visit Website</a>
+      - title: Forgeahead Meaning
+        description: Forgeahead brings ideas to life by capitalizing on its core competency
+          in software product development. Forgeahead’s focused expertise and approach
+          is designed to help you “Forge Ahead” of your competition by converting
+          your ideas to real life products. Our goal is to help small and medium organizations,
+          as well as large scale corporations, disrupt traditional ways of thinking
+          to revolutionize the industry.
+      - title: Core Values
+        description: Forgeahead 6 Core Values-<br /> 1. Customer First<br /> 2. People
+          oriented<br /> 3. Delivering results<br /> 4. Open and quick communication<br
+          /> 5. Innovation and creativity<br /> 6. Stability
+      - title: Our Mission
+        description: <b>Forgeahead's Mission:</b><br />To build special relationships
+          with our customers to increase and drive performance through the full product
+          and service life cycle. Forgeahead services are characterized by-<br />1.
+          First-Time-Right solutions by using the appropriate technology, tools and
+          resources.<br />2. Process Compliance for consistency and traceability.
+      - title: Area of Services
+        description: 'List of services provided by Forgeahead:<br />1. Custom Software
+          Development<br /> 2. UI Design<br />3. DevOps<br />4. Managed Testing Team<br
+          />5. Automated Testing Services &<br />6. Skill Augmentation<br />7. Machine
+          Learning<br />  For more details visit link: <a href="https://forgeahead.io/services/"
+          target="_blank" style="color:#008000;">Area of Services</a>'
+      - title: Work Life at Forgeahead
+        description: We have a group of creative and enthusiastic employees who are
+          the core members of the Events Committee. The motto of this group being
+          – Let’s work hard and celebrate harder! This Committee works collectively
+          in organizing in-house events, celebrating various festivals, fun games,
+          and activities which provide our fellow colleagues with a healthy dose of
+          fun, laughter, and meaningful conversations! It gives us all a wide platform
+          to interact and get to know each other well.
+      - title: Leadership Team
+        description: <b>Leaders from Forgeahead:</b><br /> 1. Ashish Shah - President
+          & Chief Executive Officer<br /> 2. Ashwin Megha - Chief Operating Officer<br
+          /> 3. Devesh Hingorani - Chief Financial Officer<br /> 4. Zohair Hasan -
+          Head of Product Engineering
+  utter_policies:
+  - text: Looking for the policies. Check out below options
+    custom:
+      payload: quickReplies
+      data:
+      - title: Leave Policies
+        payload: leave_policy
+      - title: Referral Bonus policy
+        payload: referral
+      - title: Insurance Cover Policy
+        payload: insurance_cover
+      - title: Training & Certification policy
+        payload: training_certification_policy
+      - title: Travel Policy
+        payload: travel_policy
+      - title: Reimbursement Policy
+        payload: contact_for_reimbursements
+      - title: Team Lunch Policy
+        payload: team_lunch_budget
+  utter_financial_queries:
+  - text: To know more about the queries related to the financial policies, select
+      the given options below
+    custom:
+      payload: collapsible
+      data:
+      - title: Variable Payout Policy
+        description: The VP amount is 5% of CTC which is then divided into two parts
+          which are 2.5% each for Company Performance and Individual performance.The
+          amount is paid on a quarterly basis. For further details contact Human Resources
+          team.
+      - title: Salary Slip/Payment Slip
+        description: The salary slip can be viewed at https://mypayroll.paysquare.com
+          after the first salary is credited. The login credentials are provided by
+          the payroll vendor for the same.
+      - title: Salary Revision
+        description: Salary revision will be done on Work Anniversary. For more details
+          please contact  HR at hr.team@forgeahead.io.
+      - title: Salary Status
+        description: Employees are paid once per month on the last working day of
+          the month, for work performed through that month. Salary will be credited
+          to the bank account of the employee or paid by crossed A/c payee cheque
+          only. You are required to open an account in the bank and branch specified
+          by the company to enable faster credit of your salary. Currently, all the
+          salary accounts are held with Citi Bank.
+      - title: Buy Out Option
+        description: Buy out option for the notice period will be strictly at the
+          discretion of the management. Please speak to the Delivery Manager for details.
+      - title: Contact to Finance Department
+        description: You can contact to Casmiro Aranjo at casmiro.aranjo@forgeahead.io
+          or Tushar Karambelkar at tushar.karambelkar@forgeahead.io
+  utter_office_culture:
+  - text: 'Select below options to know more about the office culture '
+    custom:
+      payload: collapsible
+      data:
+      - title: Office Timing
+        description: <b>Office Timings:</b> <br />1. The Standard work week for Forgeahead
+          is Monday to Friday. The regular working day office timings are from 9:30
+          am to 6:30 pm with 30 minutes for lunch.<br />2. The lunch break will be
+          for 30 minutes which can be taken between 1 pm to 3 pm in a day. However,
+          the employee will be allowed a flexible entry for Office start time between
+          8:30 am to 10:30 am, but not later than 10:30 am. <br />3. All employees
+          should log a minimum of 40 hours of work in a week. The standard working
+          hours may be different for employees in some functions.
+      - title: Access Card Guidelines
+        description: <b>Access Card Guidlines:</b> <br />1. Everyone will be provided
+          with an Access card along with Identity Card, which allows you to enter
+          the office. Kindly make it a point to wear your Identity Cards at all times
+          when you are in the Office.<br />2. It’s compulsory not only from a security
+          point of view but also helps to keep track of your attendance in the office.<br
+          />3. In case an employee has lost his/her ID/Access Card he/she needs to
+          immediately report it to the Administration Dept.<br />4. The new ID card
+          will be issued on payment of a fine of Rs.1,000/-. Employees leaving Forgeahead
+          need to return their Access card along with Identity Card to the administration
+          Dept. A fine of Rs.1,000/- will be imposed in case of misplaced ID / Access
+          card.
+      - title: Timesheet Access
+        description: Either use this URL “http://timesheet.forgeahead.io/” to get
+          access to timesheet. or <a href="http://timesheet.forgeahead.io/" target="_blank"
+          style="color:#008000;">Click to Access Timesheet</a>
+      - title: Cleanliness
+        description: Employees are expected to be responsible to keep their surroundings
+          clean and see that at the end of the working day, their desks are kept neat
+          and tidy.It is expected that employees do not waste water and whenever any
+          leakage of water is found the same should be reported to the Admin Department
+          immediately.
+      - title: Holiday List
+        description: On LMS Dashboard click on a tab called as Holiday List.
+      - title: Attendance Info
+        description: 1. Please ensure you sign in the Attendance Register kept at
+          the reception every day and keep your record updated.<br />2. Maintenance
+          of Attendance Register is a statutory requirement.<br />3. It is compulsory
+          to punch in and punch out with the employee RFID Access Card, whenever you
+          enter/leave the office premises.
+      - title: Cell Phone Usage Guidelines
+        description: It is advisable to follow certain guidelines for usage of Cell
+          Phones so that our personal needs are satisfied and at the same time others
+          are not disturbed and decorum is maintained in the office.<br />All Employees
+          are requested to adhere to these Cell Phone Usage guidelines:<br /> 1. Keep
+          your mobiles in vibration / silent mode in office<br /> 2. Turn off your
+          mobiles during meetings<br /> 3. Use your mobiles only for important calls<br
+          /> 4. Keep your mobiles in safe places all the time<br /> 5. Speak softly
+          on the phone
+      - title: Want to change the career path
+        description: I would suggest you to talk to your project manager or HR.
+  utter_miscellaneous_policy:
+  - text: 'Know more about some miscellaneous policies of the Forgeahead '
+    custom:
+      payload: collapsible
+      data:
+      - title: Notice Period
+        description: The notice period is two months. For details regarding the notice
+          period, please refer to the handbook. Page No:32, 33, 34. Under Exit Policy
+          Head.
+      - title: Probation Period
+        description: The probation period is of 6 months.
+      - title: Meal Facility
+        description: Forgeahead provides all their employees breakfast & evening snacks
+          facility in the cafeteria. Timings for the morning breakfast is 10:30 AM
+          to 11:30 AM and evening snacks 4:30 PM to 5:30 PM.<br />Tea and coffee are
+          available in the cafeteria round the clock hence no stipulated Tea breaks.
+          The lunch break will be for 30 minutes which can be taken between 1pm to
+          3pm in a day.
+  utter_ask_leave_balance:
+  - text: Here are your leave balance details
+    custom:
+      payload: chart
+      data:
+        title: Leaves
+        labels:
+        - Earned Leave
+        - Work From Home
+        - Comp Off
+        - Sectional Leave
+        backgroundColor:
+        - '#36a2eb'
+        - '#ffcd56'
+        - '#ff6384'
+        - '#009688'
+        - '#c45850'
+        chartsData:
+        - 5
+        - 10
+        - 22
+        - 3
+        chartType: pie
+        displayLegend: 'true'
+  utter_inhouse_contacts:
+  - text: 'Contact details with issues related to : '
+    custom:
+      payload: collapsible
+      data:
+      - title: Technical Issue
+        description: Please contact at si@forgeahead.io for any technical help about
+          computer, Laptops, server, VM, Cloud, emails, internet access or network
+          related issues.
+      - title: Finance Issue
+        description: Please contact to Casmiro Aranjo at casmiro.aranjo@forgeahead.io
+          or Tushar Karambelkar at tushar.karambelkar@forgeahead.io
+      - title: Daily Needs
+        description: 'Please Contact to Admin at admin@forgeahead.io for the day to
+          day general purpose needs/issues.<br />For example: Notepad, Pen, Board/meeting
+          room requests, Telephone, Electrical, Chairs, Cupboards, Cafeteria, office
+          facilities, free movement of laptop/carry laptop to home, Security, or anything
+          related in the same area.'
+      - title: Escalations
+        description: Please contact to HR at hr.team@forgeahead.io
+      - title: Reimbursements
+        description: For all kinds of reimbursements e.g. travel, food, etc. per project/individual
+          you can contact at reimbursements@forgeahead.io. An email will reach key
+          people from the Finance and HR Team.
+      - title: Sports Event
+        description: Please enquire at sportsclub@forgeahead.io
+      - title: Recruitment, Referrals, Walkins & Job posting
+        description: Please contact HR at talent@forgeahead.io
+      - title: First-Aid
+        description: First Aid kit is available with the Admin Department in case
+          of an emergency.
+      - title: Emergency
+        description: For emergency, please contact through email at incidents@forgeahead.io.<br
+          /> An email will reach Key people from Admin, HR, SI, Management.
+actions:
+- action_default_fallback
+- action_listen
+- action_restarted
+- action_slot_reset
+- reset_slots
+- utter_Cleanliness
+- utter_WFH
+- utter_access_card_guidlines
+- utter_action_default_fallback
+- utter_agent.acquaintance
+- utter_agent.age
+- utter_agent.annoying
+- utter_agent.answer_my_question
+- utter_agent.bad
+- utter_agent.be_clever
+- utter_agent.beautiful
+- utter_agent.birth_date
+- utter_agent.boring
+- utter_agent.boss
+- utter_agent.busy
+- utter_agent.can_you_help
+- utter_agent.chatbot
+- utter_agent.clever
+- utter_agent.crazy
+- utter_agent.fired
+- utter_agent.funny
+- utter_agent.good
+- utter_agent.happy
+- utter_agent.hobby
+- utter_agent.hungry
+- utter_agent.marry_user
+- utter_agent.my_friend
+- utter_agent.name
+- utter_agent.occupation
+- utter_agent.origin
+- utter_agent.ready
+- utter_agent.real
+- utter_agent.residence
+- utter_agent.right
+- utter_agent.sure
+- utter_agent.talk_to_me
+- utter_agent.there
+- utter_apply_for_WFH
+- utter_apply_for_compOff
+- utter_apply_grievances
+- utter_apply_leave_on_LMS
+- utter_appraisal.bad
+- utter_appraisal.good
+- utter_appraisal.no_problem
+- utter_appraisal.thank_you
+- utter_appraisal.welcome
+- utter_appraisal.well_done
+- utter_appraisal_policy
+- utter_area_of_service
+- utter_attendance_info
+- utter_buy_out
+- utter_career_change
+- utter_cell_phone_usage_guidelines
+- utter_ceo_of_forgeahead
+- utter_check_leave_status
+- utter_company_address
+- utter_company_meaning
+- utter_company_mission
+- utter_company_website
+- utter_compoff
+- utter_confirmation.cancel
+- utter_confirmation.no
+- utter_confirmation.yes
+- utter_contact_HR
+- utter_contact_for_RRWJ
+- utter_contact_for_dailyNeeds
+- utter_contact_for_emergency
+- utter_contact_for_escalations
+- utter_contact_for_financeIssue
+- utter_contact_for_firstaid
+- utter_contact_for_reimbursements
+- utter_contact_for_sports
+- utter_contact_for_technical_issues
+- utter_core_values
+- utter_dialog.hold_on
+- utter_dialog.hug
+- utter_dialog.i_do_not_care
+- utter_dialog.sorry
+- utter_dialog.what_do_you_mean
+- utter_dialog.wrong
+- utter_dress_code
+- utter_earned_leave
+- utter_emergency_leave
+- utter_emotions.ha_ha
+- utter_emotions.wow
+- utter_event_info
+- utter_exit_policy
+- utter_greetings.bye
+- utter_greetings.goodevening
+- utter_greetings.goodmorning
+- utter_greetings.goodnight
+- utter_greetings.hello
+- utter_greetings.how_are_you
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_greetings.whatsup
+- utter_holiday_list
+- utter_hr_info
+- utter_insurance_cover
+- utter_leave_in_notice_period
+- utter_leave_policy
+- utter_lms_info
+- utter_management_team_fa
+- utter_marriage_leave
+- utter_maternity_leave
+- utter_meal_facility
+- utter_name_intro
+- utter_noticeperiod
+- utter_office_timings
+- utter_onsite_travel_policy
+- utter_overtime_policy
+- utter_paternity_leave
+- utter_performance_improvement_plan
+- utter_probation_period
+- utter_referral
+- utter_sabbatical_leave
+- utter_salary_revision
+- utter_salary_slip
+- utter_salary_status
+- utter_salary_structure
+- utter_sent_resignation
+- utter_sick_leave
+- utter_team_lunch_budget
+- utter_timesheet_access
+- utter_training_certification_policy
+- utter_training_certification_policy.eligibility
+- utter_training_certification_policy.how_to_apply
+- utter_travel_policy
+- utter_travel_policy.How_to_apply
+- utter_travel_policy.detailed_info
+- utter_travel_policy.eligibility
+- utter_travel_policy.within_city
+- utter_unnecessary_questions
+- utter_user.angry
+- utter_user.back
+- utter_user.bored
+- utter_user.busy
+- utter_user.can_not_sleep
+- utter_user.does_not_want_to_talk
+- utter_user.excited
+- utter_user.going_to_bed
+- utter_user.good
+- utter_user.happy
+- utter_user.has_birthday
+- utter_user.here
+- utter_user.joking
+- utter_user.likes_agent
+- utter_user.lonely
+- utter_user.looks_like
+- utter_user.loves_agent
+- utter_user.misses_agent
+- utter_user.needs_advice
+- utter_user.sad
+- utter_user.sleepy
+- utter_user.testing_agent
+- utter_user.tired
+- utter_user.waits
+- utter_user.wants_to_see_agent_again
+- utter_user.wants_to_talk
+- utter_user.will_be_back
+- utter_variable_payout
+- utter_worklife_info
+- utter_about_forgeahead
+- utter_policies
+- utter_financial_queries
+- utter_office_culture
+- utter_miscellaneous_policy
+- utter_india_address
+- utter_canada_address
+- utter_us_address
+- utter_inhouse_contacts
+- utter_ask_leave_balance

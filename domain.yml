@@ -286,20 +286,24 @@ responses:
     buttons:
     - title: Who We Are
       payload: /about_forgeahead
-    - title: Our Policies
-      payload: /policies
-    - title: Financial Query
-      payload: /financial_queries
     - title: Office Culture
       payload: /office_culture
-    - title: Performance Improvement Plan
-      payload: /performance_improvement_plan
-    - title: Miscellaneous Policies
-      payload: /miscellaneous_policy
-    - title: Inhouse Contacts
-      payload: /inhouse_contacts
     - title: Our Global Locations
       payload: /company_address
+    - title: Inhouse Contacts
+      payload: /inhouse_contacts
+    - title: Leave Policies
+      payload: /leave_policy
+    - title: Financial Query
+      payload: /financial_queries
+    - title: Performance Improvement Plan
+      payload: /performance_improvement_plan
+    - title: Travel Policy
+      payload: /travel_policy
+    - title: Training and Certification
+      payload: /training_certification_policy
+    - title: Miscellaneous Policies
+      payload: /miscellaneous_policy
   utter_agent.chatbot:
   - text: That's me. I chat, therefore I am.
   - text: Indeed I am. I'll be here whenever you need me.
@@ -665,20 +669,24 @@ responses:
     buttons:
     - title: Who We Are
       payload: /about_forgeahead
-    - title: Our Policies
-      payload: /policies
-    - title: Financial Query
-      payload: /financial_queries
     - title: Office Culture
       payload: /office_culture
-    - title: Performance Improvement Plan
-      payload: /performance_improvement_plan
-    - title: Miscellaneous Policies
-      payload: /miscellaneous_policy
-    - title: Inhouse Contacts
-      payload: /inhouse_contacts
     - title: Our Global Locations
       payload: /company_address
+    - title: Inhouse Contacts
+      payload: /inhouse_contacts
+    - title: Leave Policies
+      payload: /leave_policy
+    - title: Financial Query
+      payload: /financial_queries
+    - title: Performance Improvement Plan
+      payload: /performance_improvement_plan
+    - title: Travel Policy
+      payload: /travel_policy
+    - title: Training and Certification
+      payload: /training_certification_policy
+    - title: Miscellaneous Policies
+      payload: /miscellaneous_policy
   utter_greetings.how_are_you:
   - text: Doing great, thanks! How may I help you here?
   - text: I'm doing very well. Thanks! How may I help you here?
@@ -903,12 +911,22 @@ responses:
   utter_training_certification_policy:
   - text: 'Select options to know more about the policy:'
     custom:
-      payload: quickReplies
+      payload: collapsible
       data:
       - title: Eligibility Criteria
-        payload: training_certification_policy.eligibility
+        description: All full-time i.e. confirmed, regular employees are eligible.
       - title: How to Apply for policy
-        payload: training_certification_policy.how_to_apply
+        description: 'How to Apply: <br />Any employee who wishes to go for training,
+          in house OR external, needs to send an email to the concerned Manager and
+          HR. The format of the email can be simple, stating what course to take,
+          the reason behind taking that course and from where she/he would like to
+          take this course along with costs associated. Coverage for External training-Forgeahead
+          provides a maximum of Rs.20,000/- as reimbursement for expenses associated
+          with taking job-related courses offered by accredited schools, colleges
+          and universities. Courses are to be scheduled so they do not interfere with
+          normal work responsibilities. This is subject to terms and conditions based
+          on the kind of certification/course you choose. Please talk with HR before
+          proceeding.'
   utter_training_certification_policy.eligibility:
   - text: All full-time i.e. confirmed, regular employees are eligible.
   utter_training_certification_policy.how_to_apply:
@@ -925,16 +943,48 @@ responses:
   utter_travel_policy:
   - text: 'Select the listed options to know detailed about the travel policy:'
     custom:
-      payload: quickReplies
+      payload: collapsible
       data:
       - title: Eligibility Criteria of Travel Reimbursement Policy
-        payload: travel_policy.eligibility
+        description: All full-time i.e. confirmed, regular employees in good standing
+          are eligible.
       - title: How to Apply for Travel Reimbursement Policy
-        payload: travel_policy.How_to_apply
+        description: Any employee who is assigned the working assignment In or Out
+          of India with a specified period needs to send an email to the Manager,
+          looping HR. The format of the email can be simple, stating which place will
+          the employee be relocating, Tenure of Relocation, Reporting Manager, Place
+          of Deployment.
       - title: Travel Reimbursement Policy with in city
-        payload: travel_policy.within_city
+        description: 1. Where auto-rickshaw/suburban trains are conveniently available,
+          they should be used.<br />2. The same will be reimbursed at reasonable actuals.<br
+          />3. Where such facilities are not conveniently available, taxis may be
+          used.<br />4. If taxi fare exceeds Rs.200/- one way, authorization of location
+          / department / functional / divisional / business head is required.<br />5.
+          Rent-a-car should be avoided.<br />6. Rent-a-car facility should be restricted
+          to business needs involving prestigious clients with prior authorization
+          from Department Head.<br />7. Conveyance Rates - Rs.5/- per km for a two
+          wheeler & Rs.7.50 per km for a four wheeler.
       - title: Detailed Information about Travel Reimbursement Policy
-        payload: travel_policy.detailed_info
+        description: "Travel Policy: There are only a few musts related to travel\
+          \ expenses:<br /> I.   All travel expense reports must be filled in within\
+          \ 7 days of return from travel. Any travel advance not settled within this\
+          \ time will be adjusted agains the current month’s salary payment (after\
+          \ one email reminder).<br /> II.  In case of Corporate Credit card (domestic\
+          \ and international), employees are requested to submit expenses statement\
+          \ together with supporting vouchers. In case any personal expenses are paid\
+          \ through the corporate card, please indicate specifically that this amount\
+          \ should not be reimbursed.<br /> III. One needs to follow RBI rules & guidelines\
+          \ for foreign travel expenses, whether made in cash or by Credit Card, and\
+          \ it should not exceed the permitted $25,000 per trip as per RBI Guidelines.<br\
+          \ /> IV.  Original Bills/Receipts must be turned in for all items.<br />\
+          \ V.   Discuss and approve your plans with your Manager.<br /> VI.  The\
+          \ mode and class of transport would be decided and approved in relation\
+          \ to your travel plans and the budget of the relevant department.<br />\
+          \ VII. Any extra expense related to a non-business travel companion, things\
+          \ you do during your own time (personal services, entertainment, health\
+          \ club dues), personal losses, and anything illegal is not included in the\
+          \ above. We ask that you use reasonable business judgment for any areas\
+          \ that we haven't mentioned."
   utter_travel_policy.How_to_apply:
   - text: Any employee who is assigned the working assignment In or Out of India with
       a specified period needs to send an email to the Manager, looping HR. The format
@@ -1159,16 +1209,10 @@ responses:
     custom:
       payload: quickReplies
       data:
-      - title: Leave Policies
-        payload: leave_policy
       - title: Referral Bonus policy
         payload: referral
       - title: Insurance Cover Policy
         payload: insurance_cover
-      - title: Training & Certification policy
-        payload: training_certification_policy
-      - title: Travel Policy
-        payload: travel_policy
       - title: Reimbursement Policy
         payload: contact_for_reimbursements
       - title: Team Lunch Policy
@@ -1264,6 +1308,26 @@ responses:
     custom:
       payload: collapsible
       data:
+      - title: Referral Bonus policy
+        description: <b>Referral Policy:</b><br />- Experience 0 – 1.4 years Amount
+          Payable Company gift,<br />- Experience 1.5 -3 years Amount Payable Rs.15,000,<br
+          />- Experience 3-5 years Amount Payable Rs.25,000,<br />- Experience 5-8
+          years Amount Payable  Rs.35,000,<br />- Experience >8 years Amount Payable  Rs.50,000.<br
+          /> The amount will be reimbursed after the candidate completes 3 months
+          of service at Forgeahead and the employee who has referred the candidate,
+          must be on payroll at the time of reimbursement.
+      - title: Insurance Cover Policy
+        description: Group Mediclaim Insurance will cover hospitalization of the employee,
+          spouse and up to 2 children of the employee to a certain prescribed limit.
+          The current limit is 2 lacs.
+      - title: Reimbursement Policy
+        description: For all kinds of reimbursements e.g. travel, food, etc. per project/individual
+          you can contact at reimbursements@forgeahead.io. An email will reach key
+          people from the Finance and HR Team.
+      - title: Team Lunch Policy
+        description: Managers are allowed to spend up to a maximum of Rs.400/- per
+          team member per 6 months. The Manager cannot increase the amount per employee
+          by combining the entire year’s budget.
       - title: Notice Period
         description: The notice period is two months. For details regarding the notice
           period, please refer to the handbook. Page No:32, 33, 34. Under Exit Policy
@@ -1295,9 +1359,9 @@ responses:
         - '#009688'
         - '#c45850'
         chartsData:
-        - 5
-        - 10
-        - 22
+        - 9
+        - 12
+        - 2
         - 3
         chartType: pie
         displayLegend: 'true'

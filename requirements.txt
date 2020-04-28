@@ -1,1 +1,1 @@
-pip install rasa-x==0.25.2 --extra-index-url https://pypi.rasa.com/simple
+RASA_X_VERSION=0.25.2

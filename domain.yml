@@ -4,6 +4,12 @@ session_config:
 intents:
 - inhouse_contacts
 - us_address
+- task_name
+- num_hours
+- desrip_task
+- info_device
+- info_cafe
+- info_telecom
 - canada_address
 - india_address
 - miscellaneous_policy
@@ -54,6 +60,8 @@ intents:
 - contact_for_reimbursements
 - contact_for_emergency
 - check_leave_status
+- check_compu_status
+- check_telco_status
 - holiday_list
 - apply_grievances
 - sent_resignation
@@ -213,6 +221,14 @@ responses:
       and see that at the end of the working day, their desks are kept neat and tidy.It
       is expected that employees do not waste water and whenever any leakage of water
       is found the same should be reported to the Admin Department immediately.
+  utter_task_name:
+  - text: <b>Task Name:</b> <br /> Kindly Provide the name of the task. For example;
+      ML POC incase of Machine Learning Proof of Concept.
+  utter_num_hours:
+  - text: <b>No. of Hours:</b> <br /> Kindly Provide the total number of hours of
+      work done on the task. Please donot include the break hours.
+  utter_desrip_task:
+  - text: <b>Description:</b> <br /> Kindly Provide the description for the task.
   utter_WFH:
   - text: <b>Work From Home:</b> <br /> Forgeahead provides all their technical staff
       employees a benefit of Work from Home. i.e. WFH. WFH can be availed by informing
@@ -453,8 +469,11 @@ responses:
   utter_ceo_of_forgeahead:
   - text: Ashish Shah is the President & CEO of Forgeahead.
   utter_check_leave_status:
-  - text: Please see the option <b>My Leave Summary</b> on the LMS Dashboard. Here
-      you can see your detailed leave history/Information.
+  - text: Would you like to grab a coffee. This really looks delicious.
+  utter_check_compu_status:
+  - text: Does this laptop interests you. A fast lappie is what todays need.
+  utter_check_telco_status:
+  - text: Wanna talk with this latest mobile. You gonna rock with this in your hands.
   utter_company_address:
   - text: We are located at three different locations. Want to explore more about
       <b>Corporate Headquarters & Development Center</b>
@@ -711,6 +730,13 @@ responses:
   - text: You know, just here, waiting to help someone.
   utter_holiday_list:
   - text: On LMS Dashboard click on a tab called as Holiday List.
+  utter_info_device:
+  - text: Hey you know this laptop is some serious stuff. One of the best. Believe
+      Me!!
+  utter_info_cafe:
+  - text: Would you like to grab a coffee.
+  utter_info_telecom:
+  - text: Hey do you wanna dial some number, as you clicked on mobile.
   utter_hr_info:
   - text: 'Please contact Archana Jadhav, here’s her email id : archana.jadhav@forgeahead.io.'
   utter_insurance_cover:
@@ -1407,6 +1433,12 @@ actions:
 - reset_slots
 - utter_Cleanliness
 - utter_WFH
+- utter_info_device
+- utter_info_cafe
+- utter_info_telecom
+- utter_num_hours
+- utter_desrip_task
+- utter_task_name
 - utter_access_card_guidlines
 - utter_action_default_fallback
 - utter_agent.acquaintance
@@ -1460,6 +1492,8 @@ actions:
 - utter_cell_phone_usage_guidelines
 - utter_ceo_of_forgeahead
 - utter_check_leave_status
+- utter_check_compu_status
+- utter_check_telco_status
 - utter_company_address
 - utter_company_meaning
 - utter_company_mission

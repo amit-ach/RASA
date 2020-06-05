@@ -1880,3 +1880,48 @@
    - utter_greetings.hello
 * ask_leave_balance
    - utter_ask_leave_balance
+
+## story 264
+* greetings.hello
+   - utter_greetings.hello
+* task_name
+   - utter_task_name
+
+## story 265
+* greetings.hello
+   - utter_greetings.hello
+* num_hours
+   - utter_num_hours
+
+## story 266
+* greetings.hello
+   - utter_greetings.hello
+* desrip_task
+   - utter_desrip_task
+
+## story 267
+* greetings.hello
+   - utter_greetings.hello
+* desrip_task
+   - utter_info_device
+
+## story 268
+* greetings.hello
+   - utter_greetings.hello
+* desrip_task
+   - utter_info_cafe
+
+## story 269
+* greetings.hello
+   - utter_greetings.hello
+* desrip_task
+   - utter_info_telecom
+
+## story 270
+* check_compu_status
+   - utter_check_compu_status
+
+## story 271
+* check_telco_status
+   - utter_check_telco_status
+
